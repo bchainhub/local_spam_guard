@@ -1,0 +1,36 @@
+name: Bug report
+description: Report incorrect detection, a crash, or another defect
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Package version
+    validations:
+      required: true
+  - type: input
+    id: dart
+    attributes:
+      label: Dart or Flutter version
+    validations:
+      required: true
+  - type: dropdown
+    id: strength
+    attributes:
+      label: Filter strength
+      options: [Off, Medium, Strong, Intense, Custom configuration]
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description and reproduction
+      description: Include expected/actual results, scores, reasons, and minimal code. Redact private message and identity data.
+    validations:
+      required: true
+  - type: textarea
+    id: configuration
+    attributes:
+      label: Advanced configuration
+      description: Include any SpamGuardConfig overrides.

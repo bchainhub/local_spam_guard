@@ -1,0 +1,22 @@
+name: Feature request
+description: Suggest an offline spam-protection improvement
+title: "[Feature]: "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem and use case
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed API or behavior
+    validations:
+      required: true
+  - type: textarea
+    id: privacy
+    attributes:
+      label: Offline, privacy, and false-positive considerations
+      description: Explain resource costs and normal messages that must remain accepted.

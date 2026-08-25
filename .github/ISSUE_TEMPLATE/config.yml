@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Documentation
+    url: https://pub.dev/packages/local_spam_guard
+    about: Read the package documentation on pub.dev
+  - name: Discussions
+    url: https://github.com/bchainhub/local_spam_guard/discussions
+    about: Ask usage questions and discuss ideas
